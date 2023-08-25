@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercise {
     public static void main(String[] args) {
         //exercise1();
-        //exercise2();
+        exercise2();
         //exercise3();
         //exercise4();
         //exercise5();
@@ -13,7 +13,7 @@ public class Exercise {
         //exercise7();
         //exercise8();
         //exercise9();
-        exercise10();
+        //exercise10();
 
 
     }
@@ -46,7 +46,7 @@ public class Exercise {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Hey, I need three numbers from you!");
-        System.out.println("Give me ti first number dude!");
+        System.out.println("Give me the first number dude!");
         int first = scanner.nextInt();
 
         System.out.println("Cool, next one:");
@@ -55,14 +55,14 @@ public class Exercise {
         System.out.println("Got it, next one:");
         int third = scanner.nextInt();
 
-        System.out.printf("Okay, so average of these numbers is equal to: %d", (first + second + third));
+        System.out.printf("Okay, so summary of these numbers is equal to: %d", (first + second + third));
     }
 
     public static void exercise3(){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Hey, I need three floats from you!");
-        System.out.println("Give me ti first float dude!");
+        System.out.println("Give me the first float dude!");
         float first = scanner.nextFloat();
 
         System.out.println("Cool, next one:");
@@ -73,7 +73,7 @@ public class Exercise {
 
         float result = (first + second + third) / 3;
 
-        System.out.printf("Okay, so summary of these numbers is equal to: %f", result);
+        System.out.printf("Okay, so average of these numbers is equal to: %f", result);
     }
 
     public static void exercise4(){
