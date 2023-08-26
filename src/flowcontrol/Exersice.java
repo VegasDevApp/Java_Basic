@@ -123,7 +123,7 @@ public class Exersice {
 
     public static void exercise10(){
         int max = Integer.MIN_VALUE;
-        for (int i = 0; i < 2000; i++) {
+        for (int i = 0; i < 5; i++) {
             int n = 10 + (int) (Math.random() * (20 - 10 + 1 ));
             System.out.println(n);
             max = Math.max(max, n);
