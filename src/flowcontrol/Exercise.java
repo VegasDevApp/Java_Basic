@@ -2,7 +2,7 @@ package flowcontrol;
 
 import java.util.Scanner;
 
-public class Exersice {
+public class Exercise {
     public static void main(String[] args) {
         //exercise1();
         //exercise2();
