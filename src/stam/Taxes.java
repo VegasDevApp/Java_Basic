@@ -37,6 +37,9 @@ public class Taxes {
 
         for (int i = 0; i < taxes.length - 1; i++) {
             calculateTaxStep(result, taxes[i], salary);
+            if(salary == result[1]){
+                break;
+            }
         }
 
         System.out.printf("Tax: %.2f\n\r", result[0]);
