@@ -10,8 +10,8 @@ public class InAction {
         //exercise6();
         //exercise7();
         //exercise8();
-        //exercise9();
-        exercise10();
+        exercise9();
+        //exercise10();
 
     }
 
@@ -135,6 +135,7 @@ public class InAction {
 
     public static void exercise9() {
         int[] arr = {1, 2, 0, 1, 9, 0, 0, 0, 0};
+        int res = 0;
 
         int indexToFind = arr.length - 1;
         for (; indexToFind > 0; indexToFind--) {
@@ -142,8 +143,11 @@ public class InAction {
         }
 
         for (int i = 0; i <= indexToFind; i++) {
-            System.out.print(arr[i]);
+            res = res * 10;
+            res += arr[i];
         }
+
+        System.out.println("Result: " + res);
 
     }
 
