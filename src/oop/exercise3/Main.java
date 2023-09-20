@@ -38,7 +38,7 @@ public class Main {
         // End of Requirement # 2
 
         // Requirement # 3
-        //printPersons(Program.sortByWeight(persons));
+        printPersons(Program.sortByWeight(persons));
         // End of Requirement # 3
 
     }
