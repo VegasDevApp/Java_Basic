@@ -5,8 +5,7 @@ public class Rectangle {
     private int rectangleWidth;
 
     public Rectangle() {
-        this.rectangleLength = 10;
-        this.rectangleWidth = 10;
+        this(10, 10, );
     }
 
     public Rectangle(int length, int rectangleWidth) {
@@ -41,10 +40,10 @@ public class Rectangle {
     }
 
     public void print(char c) {
-       //char[][] rec = new[this.rectangleLength][this.rectangleWidth];
+
         for (int i = 0; i < this.rectangleLength; i++) {
             for (int j = 0; j < this.rectangleWidth; j++) {
-                if(i == 0 || i == this.rectangleLength-1 || j == 0 || j==this.rectangleWidth-1){
+                if (i == 0 || i == this.rectangleLength - 1 || j == 0 || j == this.rectangleWidth - 1) {
                     System.out.printf(" %s ", c);
                 } else {
                     System.out.print("   ");
@@ -54,11 +53,11 @@ public class Rectangle {
         }
     }
 
-    public void print(String s){
+    public void print(String s) {
         this.print(s.charAt(0));
     }
 
-    public void print(){
+    public void print() {
         this.print('*');
     }
 }
