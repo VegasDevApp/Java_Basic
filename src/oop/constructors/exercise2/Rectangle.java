@@ -5,7 +5,7 @@ public class Rectangle {
     private int rectangleWidth;
 
     public Rectangle() {
-        this(10, 10, );
+        this(10, 10 );
     }
 
     public Rectangle(int length, int rectangleWidth) {
